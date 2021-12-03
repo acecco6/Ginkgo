@@ -128,20 +128,20 @@
 }
 @keyframes EntradaDown {
     0% {
-      opacity: 0;
-      padding:0px ;
-      height: 0px;
-      -webkit-transform: translate3d(0, -10%, 0);
-      -ms-transform: translate3d(0, -10%, 0);
-      transform: translate3d(0, -10%, 0)
+        opacity: 0;
+        padding:0px ;
+        height: 0px;
+        -webkit-transform: translate3d(0, -10%, 0);
+        -ms-transform: translate3d(0, -10%, 0);
+        transform: translate3d(0, -10%, 0)
     }
     100% {
-      opacity: 1;
-      padding:9px 0px ;
-      height: 273px;
-      -webkit-transform: none;
-      -ms-transform: none;
-      transform: none
+        opacity: 1;
+        padding:9px 0px ;
+        height: 273px;
+        -webkit-transform: none;
+        -ms-transform: none;
+        transform: none
     }
 }
 .EntradaDown {
