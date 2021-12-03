@@ -13,6 +13,7 @@ html body{
 
 a{
     text-decoration: none;
+    color: #000000; 
 }
 
 .font{
@@ -100,7 +101,7 @@ header{
 #header__nav a img{
     padding-left: 5px;
 }
-#header__nav a{
+#header__nav li a{
     color: #000000;
     text-decoration: none;
     font-size: 18px;  
@@ -127,7 +128,7 @@ footer{
 .footer__title{
     display: flex;
     align-items: center;
-    height: 75px;
+    height: 55px;
     font-size: 13px;
 }
 .footer__title_principla{
@@ -146,7 +147,7 @@ footer{
     width: 180px;
 
 }
-.footer__body p{
+.footer__body p , .footer__body a{
     margin-bottom: 10px;
     font-size: 16px;
 
