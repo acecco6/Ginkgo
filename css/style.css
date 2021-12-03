@@ -5,6 +5,11 @@
     margin: 0;
     box-sizing: border-box;
 }
+html body{
+    position: relative;
+    height: 100vh;
+    padding-bottom: 270px;
+}
 
 a{
     text-decoration: none;
@@ -48,13 +53,19 @@ header{
     background-color:#000000 ;
     height: 3px;
     width: 60px;
-    margin-top: 6px;
+    position: absolute;
+    top: 70%;
+    left: 19%;
+    border-radius:10px;
+    
 }
-
-#header__nav li{
+#header__nav{
+    height: 100%;
+}
+#header__nav  li{
     position: relative;
     display: inline-block;
-    margin-top:38px;
+    height: 100%;
     padding: 0px 10px 0px 10px;
 }
 #header__nav li:hover ul{
@@ -63,8 +74,8 @@ header{
 
 #header__nav  ul{
     position: absolute;
-    top: 92%;
-    left: -42%;
+    top: 85%;
+    left: -90%;
     width: 221px;
     height: 0px;
     display: flex;
@@ -77,6 +88,7 @@ header{
 }
 
 #header__nav ul li{
+    height: 18px !important;
     padding: 0;
     margin: 0;
     width: 100%;
@@ -94,4 +106,54 @@ header{
     font-size: 18px;  
     display: flex;
     align-items: center;
+    line-height: 100px;
+}
+
+footer{
+    padding: 10px 0px ;
+    position: absolute;
+    bottom: 0;
+    height: 270px;
+    width: 100%;
+}
+.footer__conteriner{
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+}
+.fotter__card{
+    width:auto;
+}
+.footer__title{
+    display: flex;
+    align-items: center;
+    height: 75px;
+    font-size: 13px;
+}
+.footer__title_principla{
+    color: #399C3F;
+    font-size: 15px;
+}
+.footer__title img{
+    margin-right: 0px;
+    height: 65px;
+    width: auto;
+    object-fit: cover;
+}
+
+.footer__body{
+    flex-wrap: wrap;
+    width: 180px;
+
+}
+.footer__body p{
+    margin-bottom: 10px;
+    font-size: 16px;
+
+}
+.footer__body i{
+    margin-right: 8px;
+}
+.extra{
+    padding-left: 45px;
 }
