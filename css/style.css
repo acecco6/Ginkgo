@@ -5,9 +5,9 @@
     margin: 0;
     box-sizing: border-box;
 }
-html body{
+html{
     position: relative;
-    height: 100vh;
+    height: auto;
     padding-bottom: 270px;
 }
 
@@ -32,6 +32,7 @@ header{
     height: 100px;
     padding: 0px 58px 0px 28px ;
     box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.15);
+    margin-bottom: 50px;
 }
 #header__title{
     display: flex;
@@ -75,6 +76,7 @@ header{
 
 #header__nav  ul{
     position: absolute;
+    z-index: 3;
     top: 85%;
     left: -90%;
     width: 221px;
@@ -113,7 +115,7 @@ header{
 footer{
     padding: 10px 0px ;
     position: absolute;
-    bottom: 0;
+    bottom: 0%;
     height: 270px;
     width: 100%;
 }

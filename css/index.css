@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap');
+#intro{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 60px;
+}
+
+.intro__img{
+    margin-right:70px;
+    width: 480px;
+    height: 541px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.intro__img img{
+    border-radius: 12px;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.info__title{
+    width: 562px;
+    height: 72px;
+    margin: auto;
+    background: #399C3F;
+    opacity: 0.99;
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 12px;
+    text-align: center;
+    padding-top: 4px;
+    color: #FFFFFF;
+    margin-bottom: 40px;
+}
+
+.info__title p{
+    font-family: 'Bree Serif', serif;
+    font-style: italic;
+    font-weight: normal;
+    font-size: 18px;
+}
+
+.title__info{
+    font-style: normal !important;
+    font-weight: 300 !important;
+    font-size: 24px !important;
+}
+.info__body{
+    width: 562px;
+    margin: auto;
+    text-align: justify;
+}
+.info__body p{
+    margin-bottom:40px;
+    font-family: 'Bree Serif', serif;
+    font-style: normal;
+    font-weight: normal;
+    position: relative;
+}
+.negrita{
+    font-size: 17px;
+    font-weight: bold;
+}
+
+
+
+#com_izq{
+    position: absolute;
+    left: -42px;
+    top: -16px;
+}
+
+#com_der{
+    position: absolute;
+    right: 37px;
+    bottom: -10px;
+}
+
+.productos__content{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    height: 470px;
+    border-top: 1px solid black;
+    margin: 100px 0px;
+}
+.producto_info{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    background-color: red;
+}
