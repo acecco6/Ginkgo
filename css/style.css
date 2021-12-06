@@ -5,9 +5,9 @@
     margin: 0;
     box-sizing: border-box;
 }
-html{
+html body{
     position: relative;
-    height: auto;
+    min-height: 100vh;
     padding-bottom: 270px;
 }
 
@@ -80,7 +80,7 @@ header{
     top: 85%;
     left: -90%;
     width: 221px;
-    height: 0px;
+    height: auto;
     display: flex;
     flex-wrap: wrap;
     align-items: center;
@@ -112,10 +112,14 @@ header{
     line-height: 100px;
 }
 
+#header__nav li ul a{
+    line-height: 0px !important;
+}
+
 footer{
     padding: 10px 0px ;
     position: absolute;
-    bottom: 0%;
+    bottom: 0;
     height: 270px;
     width: 100%;
 }
