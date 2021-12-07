@@ -8,7 +8,7 @@
 html body{
     position: relative;
     min-height: 100vh;
-    padding-bottom: 270px;
+    padding-bottom: 250px;
 }
 
 a{
@@ -120,7 +120,7 @@ footer{
     padding: 10px 0px ;
     position: absolute;
     bottom: 0;
-    height: 270px;
+    height: 240px;
     width: 100%;
 }
 .footer__conteriner{

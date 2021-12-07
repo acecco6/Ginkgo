@@ -79,19 +79,112 @@
     bottom: -10px;
 }
 
+.productos__conteiner{
+    width: 85%;
+    margin: auto;
+    margin-top: 120px;
+}
 .productos__content{
     width: 100%;
     display: flex;
     align-items: center;
-    height: 470px;
-    border-top: 1px solid black;
-    margin: 100px 0px;
+    height: auto;
+    margin-bottom:120px;
 }
+.producto__img{
+    height: 100%;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.producto__img img{
+    height:480px;
+    width: 420px;
+    object-fit: cover;
+    border-radius:15px ;
+}
+.producto__img img:hover{
+    -webkit-animation-name: pulse;
+    animation-name: pulse;
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+    -webkit-animation-iteration-count: infinite;
+    animation-iteration-count: infinite;
+    -webkit-animation-duration: 2s;
+    animation-duration: 2s;
+}
+
 .producto_info{
     width: 50%;
     display: flex;
     align-items: center;
     justify-content: center;
     height: 100%;
-    background-color: red;
+    /* padding-right: 30px; */
+}
+
+.producto_info_content{
+    width:466px;
+}
+
+.producto__info__title{
+    font-size: 36px;
+    color: #282828;
+    font-family: 'Bree Serif', serif;
+    font-style: normal;
+    font-weight: 700;
+}
+.producto__info__body{
+    font-size: 18px;
+    font-family: 'Bree Serif', serif;
+    font-style: normal;
+    font-weight: 400;
+}
+.producto_info_content span{
+    font-size: 18px;
+    font-family: 'Bree Serif', serif;
+    font-style: normal;
+    font-weight: 600;
+    display: inline-block;
+    width: 100%;
+    
+}
+.producto_info_content button{
+    border: none;
+    background: #399C3F;
+    color: #FFFFFF;
+    border-radius: 8px;
+    width: 200px;
+    height: 48px;
+    font-family: "Bree Serif";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    cursor: pointer;
+    margin-top:30px;
+    margin-left: 10px;
+}
+.white{
+    background: white !important;
+    color: #399C3F !important;
+}
+.reverse{
+    justify-content: center !important;
+}
+
+.producto_info_content button:hover{
+    -webkit-animation-duration: 0.6s;
+    animation-duration: 0.6s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+    -webkit-animation-duration: 0.6s;
+    animation-duration: 0.6s;
+    -webkit-transform-origin: top center;
+    -ms-transform-origin: top center;
+    transform-origin: top center;
+    -webkit-animation-name: swing;
+    animation-name: swing
 }
