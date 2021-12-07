@@ -1,13 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap');
 #intro{
-    width: 100%;
+    margin: auto;
+    width: 90%;
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
     margin-bottom: 60px;
 }
 
 .intro__img{
-    margin-right:70px;
+    /* margin-right:70px; */
     width: 480px;
     height: 541px;
     display: flex;
