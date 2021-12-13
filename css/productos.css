@@ -1,0 +1,46 @@
+.producto__detalle-img{
+    display: block;
+}
+
+.producto__img{
+    text-align:center;
+}
+
+.producto__img img {
+    height: auto;
+    width: 70%;
+}
+
+.producto__comprar{
+    text-align:center;
+    width:100%;
+    padding-top: 20px;
+}
+
+.producto__precio{
+    font-size:30px;
+    font-weight:bold;
+    font-family: 'Bree Serif', serif;
+}
+
+.productos__content{
+    align-items:flex-start;
+}
+
+.producto__detalle__title{
+    font-size:30px;
+    font-family: 'Bree Serif', serif;
+    padding-bottom:20px;
+}
+
+.producto__detalle__body{
+    padding:12px 0px;
+    font-family: 'Bree Serif', serif;
+}
+
+.producto_info_content ul li{
+    padding:12px 0px;
+    margin-left:20px;
+    font-family: 'Bree Serif', serif;
+
+}
