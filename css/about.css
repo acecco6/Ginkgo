@@ -8,6 +8,16 @@
 
 .about-page-top{
     font-weight:bold;
+    font-size:24px;
+    font-family: 'Bree Serif', serif;
     padding-bottom:50px;
     text-transform:uppercase;
+}
+
+.about__info{
+    font-size:18px;
+}
+
+.about__vermas{
+    font-size:24px;
 }
