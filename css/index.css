@@ -111,7 +111,6 @@ header{
     display: flex;
     align-items: center;
     height: auto;
-    margin-bottom:120px;
 }
 .producto__img{
     height: 100%;
@@ -121,8 +120,8 @@ header{
     justify-content: center;
 }
 .producto__img img{
-    height:480px;
-    width: 420px;
+    height:auto;
+    width:100%;
     object-fit: cover;
     border-radius:15px ;
 }
@@ -158,7 +157,9 @@ header{
     font-family: 'Bree Serif', serif;
     font-style: normal;
     font-weight: 700;
+    padding-bottom:20px;
 }
+
 .producto__info__body{
     font-size: 18px;
     font-family: 'Bree Serif', serif;
@@ -222,7 +223,7 @@ header{
 }
 
 .productoshome__info__logo img{
-    width:120px;
+    width:140px;
 }
 
 .productoshome__info__body{
@@ -232,4 +233,8 @@ header{
 
 .producto_home_img img {
     width: 90%;
+}
+
+.productoshome__info__logo.logo_prodpage{
+    text-align:left!important;
 }
