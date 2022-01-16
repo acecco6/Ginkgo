@@ -57,7 +57,10 @@
                 </div>     
             </div>
             <div class="producto__img producto__detalle-img">
-                <img src="../img/video.png" alt="">
+                <img id="featured" src="../img/video.png" alt="">
+                <div class="thumb-container">
+                    <img class="thumbnail active" src="../img/video.png" alt="">
+                </div>
                 <div class="producto__comprar">
                     <button onclick="location.href='https://mpago.la/2Lu7c22'">Comprar</button>
                 </div>
@@ -122,5 +125,37 @@
     
     </footer>
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+    <script type="text/javascript">
+		let thumbnails = document.getElementsByClassName('thumbnail')
+
+		let activeImages = document.getElementsByClassName('active')
+
+		for (var i=0; i < thumbnails.length; i++){
+
+			thumbnails[i].addEventListener('click', function(){
+				console.log(activeImages)
+				
+				if (activeImages.length > 0){
+					activeImages[0].classList.remove('active')
+				}
+				
+
+				this.classList.add('active')
+				document.getElementById('featured').src = this.src
+			})
+		}
+
+
+		let buttonRight = document.getElementById('slideRight');
+		let buttonLeft = document.getElementById('slideLeft');
+
+		buttonLeft.addEventListener('click', function(){
+			document.getElementById('slider').scrollLeft -= 180
+		})
+
+		buttonRight.addEventListener('click', function(){
+			document.getElementById('slider').scrollLeft += 180
+		})
+	</script>
 </body>
 </html>
