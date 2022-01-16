@@ -4,7 +4,7 @@
     width: 75%;
     height: auto;
     margin: auto;
-    padding-bottom: 90px;
+    padding-bottom:10%;
 }
 
 #encabezado{
@@ -19,9 +19,9 @@
 
 #body{
     display: flex;
-    height: 230px;
+    height:fit-content;
     width: 100%;
-    margin-bottom: 80px;
+    margin-bottom:0px;
 }
 .body__info{
     width: 75%;
@@ -185,4 +185,20 @@ p.info__contac.contac_font a:hover img {
 
 .title__info, .content__info{
     font-family: 'Bree Serif', serif;
+}
+
+@media only screen and (max-width: 600px) {
+    #body{
+        display:block!important;
+    }
+
+    .contact__info {
+        width: 100%;
+        margin-bottom: 20%;
+    }
+
+    .contacto-about-col{
+        padding-top:5%;
+    }
+
 }

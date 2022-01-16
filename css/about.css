@@ -28,3 +28,10 @@
     margin-top: 10%;
     margin-left: 0%;
 }
+
+@media only screen and (max-width: 600px) {
+    .intro__img{
+        width:90%!important;
+        padding-bottom:25px;
+    }
+}

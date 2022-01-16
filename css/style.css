@@ -196,3 +196,51 @@ footer{
 .center{
     text-align:center;
 }
+
+@media only screen and (max-width: 600px) {
+    .intro__img{
+        width:70%!important;
+        margin-left:5%;
+        margin-top:2%;
+    }
+
+    .intro__info {
+        width: 100%;
+        padding: 3%;
+    }
+
+    .productos__content {
+        display: block;
+    }
+
+    .productoshome_info, .producto_home_img {
+        width: 100%!important;
+        display: block;
+    }
+
+    footer {
+        display:flex;
+        position: relative;
+        height:auto;
+    }
+
+    .footer__conteriner {
+        display: block;
+        justify-content: flex-start;
+    }
+
+    .fotter__card {
+        width: 100%;
+        display: block;
+    }
+
+    .footer__title{
+        padding-left:5%;
+    }
+
+    .footer__body {
+        flex-wrap: wrap;
+        width: auto;
+        padding-left: 10%;
+    }
+}
