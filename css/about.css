@@ -21,3 +21,10 @@
 .about__vermas{
     font-size:24px;
 }
+
+.intro__img.about__img img {
+    border-radius: 12px;
+    width: 80%;
+    margin-top: 10%;
+    margin-left: 0%;
+}
