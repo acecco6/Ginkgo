@@ -13,32 +13,52 @@
         <title>Ginkgo</title>
     </head>
 <body>
-<header>
-    <a href="../index.html">
-        <div id="header__title">
-            <img  class="entrada animated" src="../img/Logo_Ginkgo_verde.png" alt="">
-            <h1   class="entrada animated font">GINKGO ESTUDIO</h1>
+    <header>
+        <a href="../index.html">
+            <div id="header__title">
+                <img  class="entrada animated" src="../img/Logo_Ginkgo_verde.png" alt="">
+                <h1   class="entrada animated font">GINKGO ESTUDIO</h1>
+            </div>
+        </a>
+        
+        <div>
+            <ul id="header__nav" class="font">
+                <li>
+                    <a href="./Productos.html">Productos <img src="../img/Rectangle 1.png" alt=""></a>
+                    <div id="header__line"></div>
+                    <ul class="EntradaDown animatedNav">
+                        <li><a href="./foto-producto.html" class="font">Foto Producto</a></li>
+                        <li><a href="./videos-publicitarios.html" class="font">Videos Publicitarios</a></li>
+                        <li><a href="./plantillas-instagram.html" class="font">Plantillas Instagram</a></li>
+                        <li><a href="./branding.html" class="font">Branding</a></li>
+                        <li><a href="./Productos.html" class="font">VER TODOS</a></li>
+                    </ul>
+                </li>
+                <li><a href="https://ginkgoestudio.webnode.page/" target="_blank">Clientes</a></li>
+                <li><a href="./SobreMi.html">Sobre mí</a></li>
+                <li><a href="./Contacto.html">Contacto</a></li>
+            </ul>
         </div>
-    </a>
-    
-    <div>
-        <ul id="header__nav" class="font">
-            <li>
-                <a href="">Productos <img src="../img/Rectangle 1.png" alt=""></a>
-                <ul class="EntradaDown animatedNav">
-                    <li><a href="./Productos.html" class="font">Foto Producto</a></li>
-                    <li><a href="" class="font">Videos Publicitarios</a></li>
-                    <li><a href="" class="font">Plantillas Instagram</a></li>
-                    <li><a href="" class="font">Branding</a></li>
-                    <li><a href="" class="font">VER TODOS</a></li>
-                </ul>
-            </li>
-            <li><a href="https://ginkgoestudio.webnode.page/" target="_blank">Clientes</a></li>
-            <li><a href="./SobreMi.html">Sobre mí</a></li>
-            <li><a href="./Productos.html">Contacto</a> <div id="header__line"></div></li>
-        </ul>
-    </div>
-</header>
+        <button class="sidebar-toggle">
+            <i class="fas fa-bars"></i>
+        </button>
+        <aside class="sidebar">
+            <div class="sidebar-header">
+              <img src="../img/Logo_Ginkgo_verde.png" class="logo" alt="">
+              <button class="close-btn">
+                X
+              </button>
+            </div>
+            <!-- links -->
+            <ul class="links">
+                <li><a href="./Productos.html">Productos <img src="../img/Rectangle 1.png" alt=""></a></li>
+                <li><a href="https://ginkgoestudio.webnode.page/" target="_blank">Clientes</a></li>
+                <li><a href="./SobreMi.html">Sobre mí</a></li>
+                <li><a href="./Contacto.html">Contacto</a></li>
+            </ul>
+          </aside>
+    </header>
+
 <div data-aos="fade-up" class="conteiner">
     <div id="encabezado">
         <p>Para cualquier consulta, no dudes en contactame: </p>
@@ -141,6 +161,28 @@
 </footer>
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script>AOS.init();</script>
+    <script>
+        const toggleBtn =document.querySelector('.sidebar-toggle');
+    const closeBtn =document.querySelector('.close-btn');
+    const sidebar =document.querySelector('.sidebar');
+    
+    toggleBtn.addEventListener('click', function(){
+        // using add and remove class
+        
+        if(sidebar.classList.contains('show-sidebar')){
+            sidebar.classList.remove('show-sidebar');
+        }else{
+            sidebar.classList.add('.show-sidebar');
+        }
+    
+        //using toggle
+        sidebar.classList.toggle('show-sidebar');
+    });
+    
+    closeBtn.addEventListener('click', function(){
+        sidebar.classList.remove('show-sidebar');
+    });
+    </script>
     
 </body>
 </html>
