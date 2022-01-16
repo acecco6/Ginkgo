@@ -259,4 +259,12 @@ header{
         width: 100%!important;
         display: block;
     }
+
+    .producto_info{
+        width:100%;
+    }
+
+    .producto__img.brief__producto img {
+        display: none;
+    }
 }
