@@ -286,6 +286,14 @@ footer{
     .sidebar-toggle{
         display:block;
     }
+
+    .footer__body.font.extra {
+        padding: 10px 10%;
+    }
+
+    .footer__title{
+        padding-left:10%;
+    }
 }
 
 .sidebar-toggle {
