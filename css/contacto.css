@@ -183,8 +183,12 @@ p.info__contac.contac_font a:hover img {
     padding-bottom:5px;
 }
 
-.title__info, .content__info{
+.title__info{
     font-family: 'Bree Serif', serif;
+}
+
+.content__info{
+    font-family: 'Bree Serif Lt Italic';
 }
 
 @media only screen and (max-width: 600px) {

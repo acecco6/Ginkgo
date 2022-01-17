@@ -13,7 +13,8 @@ header{
 
 
 .txt-top-home span {
-    font-size: 24px!important;
+    font-size: 23px!important;
+    letter-spacing:1px;
 }
 
 .info__body{
@@ -34,8 +35,6 @@ header{
     font-weight: bold;
 }
 
-
-
 #com_izq{
     position: relative;
     left: -25px;
@@ -53,6 +52,7 @@ header{
     width: 85%;
     margin: auto;
     margin-top: 50px;
+    margin-bottom: 12%;
 }
 .productos__content{
     width: 100%;
@@ -106,23 +106,29 @@ header{
     font-style: normal;
     font-weight: 700;
     padding-bottom:20px;
+    letter-spacing:2px;
 }
 
 .producto__info__body{
     font-size: 18px;
-    font-family: 'Bree Serif', serif;
+    font-family:"Bree Serif Lt";
     font-style: normal;
     font-weight: 400;
+    line-height:27px;
+    letter-spacing: .5px;
 }
+
 .producto_info_content span{
     font-size: 18px;
-    font-family: 'Bree Serif', serif;
+    font-family:"Bree Serif Lt Italic";
     font-style: normal;
     font-weight: 600;
     display: inline-block;
     width: 100%;
-    
+    line-height: 30px;
+    letter-spacing: .5px;
 }
+
 .producto_info_content button, .producto__img button{
     border: none;
     background: #399C3F;
@@ -130,7 +136,8 @@ header{
     border-radius: 8px;
     width: 200px;
     height: 48px;
-    font-family: "Bree Serif";
+    font-family: "Bree Serif Lt";
+    line-height:19px;
     font-style: normal;
     font-weight: normal;
     font-size: 20px;
@@ -175,9 +182,14 @@ header{
 }
 
 .productoshome__info__body{
-    font-family: "Bree Serif";
+    font-family:"Bree Serif Lt";
     font-size: 20px;
 }
+
+.productoshome__info__body span {
+    font-family: 'Bree Serif', serif;
+}
+
 
 .producto_home_img img {
     width: 90%;
@@ -239,6 +251,19 @@ header{
     font-weight: 300 !important;
     font-size: 24px !important;
 }
+
+.producto__img.brief__producto img{
+    width:115%;
+}
+
+p.title__info.home__title {
+    font-family: 'Bree Serif Lt';
+}
+
+p.home__info {
+    font-family: 'Bree Serif Lt Italic';
+}
+
 
 @media only screen and (max-width: 600px) {
     .intro__img{
