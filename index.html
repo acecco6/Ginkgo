@@ -14,32 +14,51 @@
     <title>Ginkgo</title>
 </head>
 <body>
-<header>
-    <a href="./index.html">
-        <div id="header__title">
-            <img  class="entrada animated" src="./img/Logo_Ginkgo_verde.png" alt="">
-            <h1   class="entrada animated font">GINKGO ESTUDIO</h1>
+    <header>
+        <a href="../index.html">
+            <div id="header__title">
+                <img  class="entrada animated" src="./img/Logo_Ginkgo_verde.png" alt="">
+                <h1   class="entrada animated font">GINKGO ESTUDIO</h1>
+            </div>
+        </a>
+        
+        <div>
+            <ul id="header__nav" class="font">
+                <li>
+                    <a href="./views/Productos.html">Productos <img src="../img/Rectangle 1.png" alt=""></a>
+                    <div id="header__line"></div>
+                    <ul class="EntradaDown animatedNav">
+                        <li><a href="./views/foto-producto.html" class="font">Foto Producto</a></li>
+                        <li><a href="./views/videos-publicitarios.html" class="font">Videos Publicitarios</a></li>
+                        <li><a href="./views/plantillas-instagram.html" class="font">Plantillas Instagram</a></li>
+                        <li><a href="./views/branding.html" class="font">Branding</a></li>
+                        <li><a href="./views/Productos.html" class="font">VER TODOS</a></li>
+                    </ul>
+                </li>
+                <li><a href="https://ginkgoestudio.webnode.page/" target="_blank">Clientes</a></li>
+                <li><a href="./views/SobreMi.html">Sobre mí</a></li>
+                <li><a href="./views/Contacto.html">Contacto</a></li>
+            </ul>
         </div>
-    </a>
-    
-    <div>
-        <ul id="header__nav" class="font">
-            <li>
-                <a>Productos <img src="./img/Rectangle 1.png" alt=""></a>
-                <ul class="EntradaDown animatedNav">
-                    <li><a href="./views/foto-producto.html" class="font">Foto Producto</a></li>
-                    <li><a href="./views/videos-publicitarios.html" class="font">Videos Publicitario</a></li>
-                    <li><a href="./views/plantillas-instagram.html" class="font">Plantillas Instagram</a></li>
-                    <li><a href="./views/branding.html" class="font">Branding</a></li>
-                    <li><a href="./views/Productos.html" class="font">VER TODOS</a></li>
-                </ul>
-            </li>
-            <li><a id="redirect">Clientes</a></li>
-            <li><a href="./views/SobreMi.html">Sobre mí</a></li>
-            <li><a href="./views/Contacto.html">Contacto</a></li>
-        </ul>
-    </div>
-</header>
+        <button class="sidebar-toggle">
+            <i class="fas fa-bars"></i>
+        </button>
+        <aside class="sidebar">
+            <div class="sidebar-header">
+              <img src="./img/Logo_Ginkgo_verde.png" class="logo" alt="">
+              <button class="close-btn">
+                X
+              </button>
+            </div>
+            <!-- links -->
+            <ul class="links">
+                <li><a href="./views/Productos.html">Productos <img src="../img/Rectangle 1.png" alt=""></a></li>
+                <li><a href="https://ginkgoestudio.webnode.page/" target="_blank">Clientes</a></li>
+                <li><a href="./views/SobreMi.html">Sobre mí</a></li>
+                <li><a href="./views/Contacto.html">Contacto</a></li>
+            </ul>
+          </aside>
+    </header>
 
 <div id="banner-top-home"  data-aos="fade-up">
     <div class="banner-top-img">
@@ -71,15 +90,15 @@
             </div>
             <div class="productohome_infocontent">
                 <div class="productoshome__info__logo"><img src="./img/icon-home-plantillas.png" /></div>
-                <div class="productoshome__info__body"><span>Fotografías profesionales</span> para que tu negocio y/o producto tenga un gran impacto visual.</div>
+                <div class="productoshome__info__body">Feed con varias <span>plantillas personalizadas</span> especialmente para tu marca personal o negocio, para mostrar tu Instagram de una manera organizada y atractiva.</div>
             </div>  
             <div class="productohome_infocontent">
                 <div class="productoshome__info__logo"><img src="./img/icon-home-branding.png" /></div>
-                <div class="productoshome__info__body"><span>Fotografías profesionales</span> para que tu negocio y/o producto tenga un gran impacto visual.</div>
+                <div class="productoshome__info__body"><span>Branding</span>, con la creación de diseño de marca que se adapte a tu negocio o emprendimiento, y todos/as te pueda reconocer fácilmente.</div>
             </div>  
             <div class="productohome_infocontent">
                 <div class="productoshome__info__logo"><img src="./img/icon-home-videos.png" /></div>
-                <div class="productoshome__info__body"><span>Fotografías profesionales</span> para que tu negocio y/o producto tenga un gran impacto visual.</div>
+                <div class="productoshome__info__body"><span>Videos publicitarios</span> diseñados especialmente para mostrar de una forma más dinámica tu marca y que puedas usarlos también para promocionar tus productos.</div>
             </div>       
         </div>
         <div class="producto_home_img">
@@ -97,35 +116,26 @@
                 <h3 class="footer__title_principla">GINKGO ESTUDIO</h3>
             </div>
             <div class="footer__body font extra">
-                <a href="" ><i class="fab fa-instagram"></i>Instagram</a><br>
-                <a href="" ><i class="fab fa-facebook-square"></i>Facebook</a>
+                <a href="https://instagram.com/ginkgoestudio" target="_blank"><i class="fab fa-instagram"></i>Instagram</a><br>
+                <a href="https://facebook.com/ginkgoestudio" target="_blank"><i class="fab fa-facebook-square"></i>Facebook</a>
             </div>
         </div>
         
         <div class="fotter__card">
             <div class="footer__title font">
-                <h3>Productos</h3>
+                <h3><a href="./views/Productos.html">Productos</a></h3>
             </div>
             <div class="footer__body font">
-                <p>Foto Producto</p>
-                <p>Videos Publicitario</p>
-                <p>Plantillas Instagram</p>
-                <p>Branding</p>
+                <p><a href="./views/foto-producto.html">Foto Producto</a></p>
+                <p><a href="./views/videos-publicitarios.html">Videos Publicitarios</a></p>
+                <p><a href="./views/plantillas-instagram.html">Plantillas Instagram</a></p>
+                <p><a href="./views/branding.html">Branding</a></p>
             </div>
         </div>
 
         <div class="fotter__card">
             <div class="footer__title font">
-                <h3>Clientes</h3>
-            </div>
-            <div class="footer__body font">
-
-            </div>
-        </div>
-
-        <div class="fotter__card">
-            <div class="footer__title font">
-                <h3>Nosotros</h3>
+                <h3><a href="https://ginkgoestudio.webnode.page/" target="_blank">Clientes</a></h3>
             </div>
             <div class="footer__body font">
 
@@ -134,7 +144,16 @@
 
         <div class="fotter__card">
             <div class="footer__title font">
-                <h3>Contacto</h3>
+                <h3><a href="./views/SobreMi.html">Sobre Mí</a></h3>
+            </div>
+            <div class="footer__body font">
+
+            </div>
+        </div>
+
+        <div class="fotter__card">
+            <div class="footer__title font">
+                <h3><a href="./views/Contacto.html">Contacto</a></h3>
             </div>
             <div class="footer__body font">
 
@@ -155,5 +174,27 @@
   gtag('js', new Date());
   gtag('config', 'G-QK8K8F7YRM');
 </script> -->
+<script>
+    const toggleBtn =document.querySelector('.sidebar-toggle');
+const closeBtn =document.querySelector('.close-btn');
+const sidebar =document.querySelector('.sidebar');
+
+toggleBtn.addEventListener('click', function(){
+    // using add and remove class
+    
+    if(sidebar.classList.contains('show-sidebar')){
+        sidebar.classList.remove('show-sidebar');
+    }else{
+        sidebar.classList.add('.show-sidebar');
+    }
+
+    //using toggle
+    sidebar.classList.toggle('show-sidebar');
+});
+
+closeBtn.addEventListener('click', function(){
+    sidebar.classList.remove('show-sidebar');
+});
+</script>
 </body>
 </html>

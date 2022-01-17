@@ -22,21 +22,39 @@
         <div>
             <ul id="header__nav" class="font">
                 <li>
-                    <a href="">Productos <img src="../img/Rectangle 1.png" alt=""></a>
+                    <a href="./Productos.html">Productos <img src="../img/Rectangle 1.png" alt=""></a>
                     <div id="header__line"></div>
                     <ul class="EntradaDown animatedNav">
                         <li><a href="./foto-producto.html" class="font">Foto Producto</a></li>
-                        <li><a href="./videos-publicitarios.html" class="font">Videos Publicitario</a></li>
+                        <li><a href="./videos-publicitarios.html" class="font">Videos Publicitarios</a></li>
                         <li><a href="./plantillas-instagram.html" class="font">Plantillas Instagram</a></li>
                         <li><a href="./branding.html" class="font">Branding</a></li>
                         <li><a href="./Productos.html" class="font">VER TODOS</a></li>
                     </ul>
                 </li>
-                <li><a href="">Clientes</a></li>
+                <li><a href="https://ginkgoestudio.webnode.page/" target="_blank">Clientes</a></li>
                 <li><a href="./SobreMi.html">Sobre mí</a></li>
                 <li><a href="./Contacto.html">Contacto</a></li>
             </ul>
         </div>
+        <button class="sidebar-toggle">
+            <i class="fas fa-bars"></i>
+        </button>
+        <aside class="sidebar">
+            <div class="sidebar-header">
+              <img src="../img/Logo_Ginkgo_verde.png" class="logo" alt="">
+              <button class="close-btn">
+                X
+              </button>
+            </div>
+            <!-- links -->
+            <ul class="links">
+                <li><a href="./Productos.html">Productos</a></li>
+                <li><a href="https://ginkgoestudio.webnode.page/" target="_blank">Clientes</a></li>
+                <li><a href="./SobreMi.html">Sobre mí</a></li>
+                <li><a href="./Contacto.html">Contacto</a></li>
+            </ul>
+          </aside>
     </header>
     
     <div  class="productos__conteiner">
@@ -51,12 +69,12 @@
                     <button class="white" onclick="location.href='../views/foto-producto.html'">Ver más</button>
                 </div>     
             </div>
-            <div class="producto__img">
+            <div class="producto__img brief__producto">
                 <img src="../img/producto-new.png" alt="">
             </div>
         </div>
         <div  data-aos="fade-up" class="productos__content">
-            <div class="producto__img">
+            <div class="producto__img brief__producto">
                 <img src="../img/videos-new.png" alt="">
             </div>
             <div class="producto_info reverse">
@@ -82,13 +100,13 @@
                     <button class="white" onclick="location.href='../views/plantillas-instagram.html'">Ver más</button>
                 </div>
             </div>
-            <div class="producto__img">
+            <div class="producto__img brief__producto">
                 <img src="../img/plantillas-new.png" alt="">
             </div>
         </div>
     
         <div  data-aos="fade-up" class="productos__content">
-            <div class="producto__img">
+            <div class="producto__img brief__producto">
                 <img src="../img/branding-new.png" alt="">
             </div>
             <div class="producto_info reverse">
@@ -105,44 +123,34 @@
     </div>
     
     
-    
-    <footer>
+    <footer  data-aos="fade-up">
         <div class="footer__conteriner">
             <div class="fotter__card">
                 <div class="footer__title font">
-                    <img   src="../img/Logo_Ginkgo_verde.png" alt="">
+                    <img  src="./img/Logo_Ginkgo_verde.png" alt="">
                     <h3 class="footer__title_principla">GINKGO ESTUDIO</h3>
                 </div>
                 <div class="footer__body font extra">
-                    <a href="" ><i class="fab fa-instagram"></i>Instagram</a><br>
-                    <a href="" ><i class="fab fa-facebook-square"></i>Facebook</a>
+                    <a href="https://instagram.com/ginkgoestudio" target="_blank"><i class="fab fa-instagram"></i>Instagram</a><br>
+                    <a href="https://facebook.com/ginkgoestudio" target="_blank"><i class="fab fa-facebook-square"></i>Facebook</a>
                 </div>
             </div>
             
             <div class="fotter__card">
                 <div class="footer__title font">
-                    <h3>Productos</h3>
+                    <h3><a href="./views/Productos.html">Productos</a></h3>
                 </div>
                 <div class="footer__body font">
-                    <p>Foto Producto</p>
-                    <p>Videos Publicitario</p>
-                    <p>Plantillas Instagram</p>
-                    <p>Branding</p>
+                    <p><a href="./views/foto-producto.html">Foto Producto</a></p>
+                    <p><a href="./views/videos-publicitarios.html">Videos Publicitarios</a></p>
+                    <p><a href="./views/plantillas-instagram.html">Plantillas Instagram</a></p>
+                    <p><a href="./views/branding.html">Branding</a></p>
                 </div>
             </div>
     
             <div class="fotter__card">
                 <div class="footer__title font">
-                    <h3>Clientes</h3>
-                </div>
-                <div class="footer__body font">
-    
-                </div>
-            </div>
-    
-            <div class="fotter__card">
-                <div class="footer__title font">
-                    <h3>Nosotros</h3>
+                    <h3><a href="https://ginkgoestudio.webnode.page/" target="_blank">Clientes</a></h3>
                 </div>
                 <div class="footer__body font">
     
@@ -151,7 +159,16 @@
     
             <div class="fotter__card">
                 <div class="footer__title font">
-                    <h3>Contacto</h3>
+                    <h3><a href="./views/SobreMi.html">Sobre Mí</a></h3>
+                </div>
+                <div class="footer__body font">
+    
+                </div>
+            </div>
+    
+            <div class="fotter__card">
+                <div class="footer__title font">
+                    <h3><a href="./views/Contacto.html">Contacto</a></h3>
                 </div>
                 <div class="footer__body font">
     
@@ -162,5 +179,27 @@
     
     </footer>
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+    <script>
+        const toggleBtn =document.querySelector('.sidebar-toggle');
+    const closeBtn =document.querySelector('.close-btn');
+    const sidebar =document.querySelector('.sidebar');
+    
+    toggleBtn.addEventListener('click', function(){
+        // using add and remove class
+        
+        if(sidebar.classList.contains('show-sidebar')){
+            sidebar.classList.remove('show-sidebar');
+        }else{
+            sidebar.classList.add('.show-sidebar');
+        }
+    
+        //using toggle
+        sidebar.classList.toggle('show-sidebar');
+    });
+    
+    closeBtn.addEventListener('click', function(){
+        sidebar.classList.remove('show-sidebar');
+    });
+    </script>
 </body>
 </html>
