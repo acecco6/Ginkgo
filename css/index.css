@@ -293,4 +293,8 @@ p.home__info {
     .producto__img.brief__producto img {
         display: none;
     }
+
+    .intro__img img{
+        margin-top:-12%;
+    }
 }
