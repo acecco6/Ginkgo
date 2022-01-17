@@ -95,8 +95,9 @@ header{
     top: 70%;
     left: 19%;
     border-radius:10px;
-    
+    display:none; 
 }
+
 #header__nav{
     height: 100%;
 }

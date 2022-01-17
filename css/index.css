@@ -264,6 +264,10 @@ p.home__info {
     font-family: 'Bree Serif Lt Italic';
 }
 
+.productos__conteiner.container__brief {
+    margin-bottom: 2%!important;
+}
+
 
 @media only screen and (max-width: 600px) {
     .intro__img{
